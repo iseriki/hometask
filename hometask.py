@@ -19,6 +19,7 @@ max(ages)
 #  7. Вывести минимальный элемент списка ages
 min(ages)
 #  8. Найти самое короткое слово d text_a
+print min(text_a.split(),key=len)
 #  9. Найти самое длинное слово в text_b
 #  10. Вывести слово special из text_a
 #  11. Вывести слово refuse из text_b
