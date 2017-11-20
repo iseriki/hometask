@@ -22,6 +22,7 @@ min(ages)
 print min(text_a.split(),key=len)
 #  9. Найти самое длинное слово в text_b
 #  10. Вывести слово special из text_a
+print(text_a.split()[0])
 #  11. Вывести слово refuse из text_b
 #  12. В names и ages имена соответствуют возрасту,
 #      используя print вывести имя и возраст, например
