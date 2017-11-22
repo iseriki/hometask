@@ -8,6 +8,9 @@ for i in range(len(names)):
 for i in range(len(names)):
 	print i, names[i]
 
+#4
+for i in range(len(names)):
+	print names[i], len(names[i])
 
 
 
