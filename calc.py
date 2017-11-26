@@ -11,5 +11,14 @@ def division(a, b):
     return a/b
 
 
+def addition_all(*args):
+    return (sum(args))
+
+def multiplication_all(*args):
+    mult = 1
+    for i in args:
+        mult *= i
+    return mult
+
 
 
