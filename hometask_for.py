@@ -8,6 +8,15 @@ for i in range(len(names)):
 for i in range(len(names)):
 	print i, names[i]
 
+#3
+for i in range(len(names)):
+    name = names[i]
+    prin name[0]
+
+for i in range(len(names)):
+    name = names[i]
+    prin name[-1]
+
 #4
 for i in range(len(names)):
 	print names[i], len(names[i])
