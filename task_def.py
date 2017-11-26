@@ -1,7 +1,7 @@
-def my_func(a=10, b=5, c=1): 
-    if (a>b & a>c): 
+def my_func(a, b, c): 
+    if a>b and a>c: 
         return a 
-    elif (b>a & b>c): 
+    elif b>a and b>c: 
         return b 
     else:
-        return 
+        return c
