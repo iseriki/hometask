@@ -38,17 +38,13 @@ def salad(func):
 		print "  ~~~salad~~~"
 	return wrapper
 
-def sandwich():
-	print "    --ham--"
-
-
 @bread
 @cheese
 @cotlet
 @tomato
 @salad
+def sandwich():
+	print "    --ham--"
+
+	
 sandwich()
-
-sandwich = bread(cheese(cotlet(tomato(salad(sandwich)))))
-
-print sandwich()
